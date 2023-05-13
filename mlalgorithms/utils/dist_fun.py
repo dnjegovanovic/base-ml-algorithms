@@ -44,3 +44,10 @@ def visualize_svm(X, w, b, y):
     ax.set_ylim([x1_min - 3, x1_max + 3])
 
     plt.show()
+
+
+def entropy(y):
+    hist = np.bincount(y)
+    ps = hist / len(y)
+
+    return -np.sum([p * np.log2(p) for p in ps if p > 0])
