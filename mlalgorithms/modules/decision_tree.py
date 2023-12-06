@@ -58,7 +58,7 @@ class DecisionTree:
         best_gain = -1
         split_idx, split_tresh = None, None
 
-        for feat_idx in feat_idxs:
+        for feat_idx in feat_idxs: 
             X_col = X[:, feat_idx]
             tresh = np.unique(X_col)
             for tr in tresh:
