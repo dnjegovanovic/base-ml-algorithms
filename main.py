@@ -5,6 +5,7 @@ from mlalgorithms.scripts.run_naive_bayes import run_naive_bayes
 from mlalgorithms.scripts.run_svm import run_svm
 from mlalgorithms.scripts.run_decision_tree import run_decision_tree
 from mlalgorithms.scripts.run_random_forest import run_random_forest
+from mlalgorithms.scripts.run_pca import run_pca
 
 if __name__ == "__main__":
     # run_linearregresion()
